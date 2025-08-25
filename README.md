@@ -17,4 +17,4 @@ Ele apresenta uma página com produtos disponíveis para venda, permitindo naveg
 ## 🚀 Como executar
 1. Clone este repositório:
    ```bash
-   git clone https://pablofront20.github.io/projeto-eccomerce/
+   git clone https://github.com/PabloFront20/projeto-eccomerce
