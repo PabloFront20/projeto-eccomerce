@@ -87,7 +87,8 @@ h1 {
     gap: 16px;
     width: 100%;
     max-width: 1200px;
-    padding: 8px 32px;
+    padding: 8px 24px;
+    flex-wrap: wrap;
 }
 
 .botao-categorias {
@@ -109,6 +110,21 @@ h1 {
 .botao-categorias.ativo {
     background-color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+    .botao-categorias {
+        flex: 1 1 45%;
+        justify-content: center;
+    }
+}
+@media (max-width: 480px) {
+    .botao-categorias {
+        flex: 1 1 100%;
+        justify-content: center;
+    }
+}
+
+
 
 .secao-hero {
     background-color: var(--primary-color);
